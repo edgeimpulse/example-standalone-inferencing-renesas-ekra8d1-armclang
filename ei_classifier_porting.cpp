@@ -77,7 +77,6 @@ __attribute__((weak)) void ei_printf(const char *format, ...) {
 }
 
 __attribute__((weak)) void ei_printf_float(float f) {
-    return;
     float n = f;
 
     static double PRECISION = 0.00001;
